@@ -12,4 +12,8 @@ public class Inscription extends HttpServlet {
         /* Affichage de la page d'inscription */
         this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
     }
+	
+    public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
+        /* Traitement des données du formulaire */
+    }
 }
