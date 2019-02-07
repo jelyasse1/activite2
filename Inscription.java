@@ -36,4 +36,18 @@ public class Inscription extends HttpServlet {
     private void validationEmail( String email ) throws Exception{}
     private void validationMotsDePasse( String motDePasse, String confirmation ) throws Exception{}
     private void validationNom( String nom ) throws Exception{}
+
+
+    /**
+ * Valide l'adresse mail saisie.
+ */
+private void validationEmail( String email ) throws Exception {
+    if ( email != null && email.trim().length() != 0 ) {
+        if ( !email.matches( "([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)" ) ) {
+            throw new Exception( "Merci de saisir une adresse mail valide." );
+        }
+    } else {
+        throw new Exception( "Merci de saisir une adresse mail." );
+    }
+}
 }
