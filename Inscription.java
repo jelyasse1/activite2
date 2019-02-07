@@ -65,4 +65,14 @@ private void validationMotsDePasse( String motDePasse, String confirmation ) thr
         throw new Exception("Merci de saisir et confirmer votre mot de passe.");
     }
 }
+
+/**
+ * Valide le nom d'utilisateur saisi.
+ */
+private void validationNom( String nom ) throws Exception {
+    if ( nom != null && nom.trim().length() < 3 ) {
+        throw new Exception( "Le nom d'utilisateur doit contenir au moins 3 caractères." );
+    }
+}
+
 }
