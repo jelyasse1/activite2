@@ -1,2 +1,5 @@
 Dans cette partie, nous allons littéralement faire table rase. Laissons tomber nos précédents exemples, et attaquons l'étude des formulaires par quelque chose de plus concret : un formulaire d'inscription. Création, mise en place, récupération des données, affichage et vérifications nous attendent !
 Bien entendu, nous n'allons pas pouvoir réaliser un vrai système d'inscription de A à Z : il nous manque encore pour cela la gestion des données, que nous n'allons découvrir que dans la prochaine partie de ce cours. Toutefois, nous pouvons d'ores et déjà réaliser proprement tout ce qui concerne les aspects vue, contrôle et traitement d'un tel système. Allons-y !
+
+Mise en place :
+Je vous propose de mettre en place une base sérieuse qui nous servira d'exemple tout au long de cette partie du cours, ainsi que dans la partie suivante. Plutôt que de travailler une énième fois sur un embryon de page sans intérêt, je vais tenter ici de vous placer dans un contexte plus proche du monde professionnel : nous allons travailler de manière propre et organisée, et à la fin de ce cours nous aurons produit un exemple utilisable dans une application réelle.
